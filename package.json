@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "",
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "Mawi",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^14.14.1",
